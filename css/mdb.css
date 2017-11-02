@@ -7043,9 +7043,9 @@ textarea.md-textarea {
   input[type=search-md]:focus:not([readonly]),
   input[type=search]:focus:not([readonly]),
   textarea.md-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #4285F4;
-    -webkit-box-shadow: 0 1px 0 0 #4285F4;
-    box-shadow: 0 1px 0 0 #4285F4; }
+    border-bottom: 1px solid #3f51b5;
+    -webkit-box-shadow: 0 1px 0 0 #3f51b5;
+    box-shadow: 0 1px 0 0 #3f51b5; }
     input[type=text]:focus:not([readonly]) + label,
     input[type=password]:focus:not([readonly]) + label,
     input[type=email]:focus:not([readonly]) + label,
@@ -7058,7 +7058,7 @@ textarea.md-textarea {
     input[type=search-md]:focus:not([readonly]) + label,
     input[type=search]:focus:not([readonly]) + label,
     textarea.md-textarea:focus:not([readonly]) + label {
-      color: #4285F4; }
+      color: #3f51b5; }
   input[type=text].valid, input[type=text]:focus.valid,
   input[type=password].valid,
   input[type=password]:focus.valid,
@@ -7267,8 +7267,9 @@ textarea.md-textarea {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     position: absolute;
-    width: 3rem;
-    font-size: 2rem; }
+    width: 1.5rem;
+    font-size: 1.3rem;
+    padding-top: 0.7rem}
     .md-form .prefix ~ input, .md-form .prefix ~ textarea {
       margin-left: 3rem;
       width: 92%;

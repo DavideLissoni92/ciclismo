@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Ciclismo trentino</title>
+  <link href="img/logo.png" rel="shortcut icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark indigo">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" height="50" alt="" class="d-inline-block align-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Calendario</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="comunicati.php">Comunicati</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="notizie.php">Notizie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contatti</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Organizzazione</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Società</a>
+              <a class="dropdown-item" href="#">Comitato e commissioni</a>
+              <a class="dropdown-item" href="#">Storia e attività</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Area download</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-android"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-apple"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="container mt-4">
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item indigo-text"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active">Contatti</li>
+      </ol>
+
+      <!-- Grid row -->
+      <div class="row mb-3">
+
+        <div class="col-md-12 text-center">
+          <p>
+            <span class="h6 indigo-text">Orari segreteria:</span> lunedì, mercoledì e venerdì ore 08.30 – 13.00; martedì e giovedì chiuso
+          </p>
+          <p>
+            <i class="fa fa-phone indigo-text"></i> 0461 983818</a><br/>
+            <i class="fa fa-envelope indigo-text"></i> trento@federciclismo.it</a>
+          </p>
+          <hr class="indigo" />
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6 map-responsive mb-5">
+          <iframe class="z-depth-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.741752310461!2d11.121723415247468!3d46.076190300419796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47827133a3e215bd%3A0xf87b557ba7a8960d!2sPiazza+di+Centa%2C+11%2C+38121+Trento+TN!5e0!3m2!1sit!2sit!4v1509611161202"
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="col-md-6">
+          <!-- Form contact -->
+
+          <form method="post" action="invia-messaggio.php">
+            <div class="md-form">
+              <i class="fa fa-user prefix grey-text"></i>
+              <input name="nome" type="text" required="required" id="form3" class="form-control">
+              <label for="form3">Nome</label>
+            </div>
+
+            <div class="md-form">
+              <i class="fa fa-envelope prefix grey-text"></i>
+              <input name="email" type="email" required="required" id="form2" class="form-control">
+              <label for="form2">Email</label>
+            </div>
+
+            <div class="md-form">
+              <i class="fa fa-tag prefix grey-text"></i>
+              <input name="oggetto" type="text" id="form32" class="form-control">
+              <label for="form34">Oggetto</label>
+            </div>
+
+            <div class="md-form">
+              <i class="fa fa-pencil prefix grey-text"></i>
+              <textarea name="messaggio" required="required" type="text" required="required" id="form8" class="md-textarea" style="height: 100px"></textarea>
+              <label for="form8">Messaggio</label>
+            </div>
+
+            <div class="text-center">
+              <button class="btn btn-indigo">Invia Messaggio <i class="fa fa-paper-plane-o ml-1"></i></button>
+            </div>
+
+          </form>
+          <!-- Form contact -->
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
